@@ -4,20 +4,14 @@ A class to intermediate returns from services with two types of possible returns
 
 Example:
 
-'''
+`Future<Result<UserModel>> getUserData (String userID)async{try{final response = await http.get(url+userID); return Result<UserModel>(data: UserMode.fromJson(response.data),);} catch(e){return Result(error: ErrorResult(message: 'User data not avaible),);}}`
 
-Future<Result<UserModel>> getUserData (String userID)async{
-    try{
-        final response = await http.get(url+userID);
-        return Result<UserModel>(data: UserMode.fromJson(response.data),
-        );
-    } catch(e){
-        return Result(error: ErrorResult(message: 'User data not avaible),
-        );
-    }
-}
-
-'''
+```dart
+Provider(
+  create: (_) => MyModel(),
+  child: ...
+)
+```
 
 ## Getting Started
 
