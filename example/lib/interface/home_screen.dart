@@ -3,7 +3,7 @@ import 'package:example/models/adress_model.dart';
 import 'package:example/services/cep_service.dart';
 import 'package:example/services/viacep_service.dart';
 import 'package:flutter/material.dart';
-import 'package:result/result.dart';
+import 'package:result/serviceresult.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

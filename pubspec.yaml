@@ -1,4 +1,4 @@
-name: result
+name: serviceresult
 description: A dart class to intermediate services reponses.
 version: 0.0.1
 author: Jilly Taboga <jillyhelli@gmail.om>

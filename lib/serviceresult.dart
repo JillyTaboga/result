@@ -1,7 +1,6 @@
 library result;
 
 import 'package:flutter/material.dart';
-import 'package:meta/meta.dart';
 
 typedef Widget ShowError(ResultError error);
 typedef OnSuccess<T>(T data);

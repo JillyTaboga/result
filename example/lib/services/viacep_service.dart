@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:example/models/adress_model.dart';
 import 'package:example/services/cep_service.dart';
-import 'package:result/result.dart';
+import 'package:result/serviceresult.dart';
 
 class ViaCepService implements CepService {
   ViaCepService() {
