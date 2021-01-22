@@ -1,6 +1,6 @@
 # result
 
-A class to intermediate returns from services with two types of possible returns, like either from Dartz, but just to acomadate a simple function.
+A class to intermediate returns from services with two types of possible returns, like either from Dartz, but with a more specific and simple aproach.
 
 Example:
 '''dart
@@ -13,8 +13,8 @@ Future<Result<UserModel>> getUserData (String userID)async{
         return Result(error: ErrorResult(message: 'User data not avaible),
         );
     }
-
 }
+'''
 
 ## Getting Started
 
