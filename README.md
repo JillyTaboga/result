@@ -3,7 +3,9 @@
 A class to intermediate returns from services with two types of possible returns, like either from Dartz, but with a more specific and simple aproach.
 
 Example:
-'''dart
+
+'''
+
 Future<Result<UserModel>> getUserData (String userID)async{
     try{
         final response = await http.get(url+userID);
@@ -14,6 +16,7 @@ Future<Result<UserModel>> getUserData (String userID)async{
         );
     }
 }
+
 '''
 
 ## Getting Started
